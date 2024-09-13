@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+:root {
+    --primary-color: #ffb900;
+    --font-heading: Sen, sans-serif;
+  }
+html {
+    font-size: 62.5%;
+  }
+  html,
+body {
+    scroll-behavior: smooth;
+  }
+body {
+    height: 100%;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(#dd5e89,#f7bb97);
+    background-repeat: no-repeat;
+  }
+
+/* common */
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* Header */
+header.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+
+
+
+header .main-content .body .logo {
+    cursor: pointer;
+}
+header.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+
+header .logo img {
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+header .logo {
+    margin-left : 20px
+}
+
+header .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 18px 0 8px;
+    background-image: linear-gradient(#cc2b5e, #753a88);
+    border-radius: 999px;
+  }
+
+.body .navbar {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    
+}
+/* navbar */
+.navbar .items {
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.navbar a .item {
+    color: antiquewhite;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 8px 21px;
+    position: relative;
+}
+
+.top-heading {
+    font-weight: 700;
+    margin: 20px auto;
+    font-size: 50px;
+    color:aliceblue;
+}
+
+.heading.lv1 {
+    color: aliceblue;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.desc {
+    color: aliceblue;
+    line-height: 1.67;
+}
+  
+.desc.lv1 {
+    margin-top: 22px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+
+h2 #skills {
+    margin-top: 100px;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+.container {
+    margin-top : 50px;
+}
+
+
+.social-icon img {
+    padding: 20px;
+}
