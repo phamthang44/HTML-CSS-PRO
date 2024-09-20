@@ -137,3 +137,20 @@ h2 {
 .social-icon img {
   padding: 20px;
 }
+
+.avatar {
+  display: flex;
+  margin-top: 20px;
+}
+.avatar .image-avatar img {
+  background-position: top top;
+  object-fit: cover;
+  object-position: 0% 0%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.avatar .info {
+  margin-left: auto;
+}
