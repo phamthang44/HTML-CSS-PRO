@@ -143,9 +143,9 @@ h2 {
   margin-top: 20px;
 }
 .avatar .image-avatar img {
-  background-position: top top;
+  background-position: 0 0;
   object-fit: cover;
-  object-position: 0% 0%;
+  object-position: 0 0;
   width: 200px;
   height: 200px;
   border-radius: 50%;
